@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minisEl = document.getElementById("minis");
 const secondsEl = document.getElementById("secounds");
 
-const newYear = "1 Jan 2022";
+const newYear = "1 Jan 2023";
 
 
 
@@ -31,4 +31,4 @@ function formatTime(time){
 }
 
 countdown();
-setInterval(countdown, 1000);
+setInterval(countdown, 1000);   
